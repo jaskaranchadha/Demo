@@ -13,7 +13,7 @@ public class login {
 		login.driver = driver;
 	}
 
-
+system.out.println("changed");
 	public static void typeUsername(String username, WebDriver driver){
 		//WebElement txt_username = driver.findElement(username_text_field);
 		WebElement txt_username = driver.findElement(By.className("form-control"));
